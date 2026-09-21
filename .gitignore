@@ -1,0 +1,28 @@
+# —— 不要提交进仓库的东西 ——
+# 导出整合包用 Releases 附件，别提交进 Git 历史（几百 MB，仓库会被撑爆）
+*.zip
+*.mrpack
+releases/
+
+# 本地游玩产生的文件
+saves/
+logs/
+crash-reports/
+backups/
+usercache.json
+usernamecache.json
+servers.dat
+servers.dat_old
+authlib-injector.log
+XaeroWaypoints_BACKUP*/
+xaero/
+schematics/
+shaderpacks/
+resourcepacks/
+downloads/
+PCL/
+local/
+data/
+*.log
+
+# 注意：options.txt 与 config/ 是**必须提交**的 —— 键位、任务书与难度参数都在里面
